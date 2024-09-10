@@ -2,17 +2,17 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors')
 
-const projects = require('./routes/projects')
-const categories = require("./routes/categories")
-const contacts = require("./routes/contacts")
+const burguers = require('./routes/burguers')
+const ingredientes = require("./routes/ingredientes")
+const status = require("./routes/status")
 
 const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use('/api/projects', projects);
-app.use('/api/categories', categories);
-app.use('/api/contacts', contacts);
+app.use('/api/ingredientes', ingredientes);
+app.use('/api/status', status);
+app.use('/api/burguers', burguers);
 
 const PORT = process.env.PORT || 3000;
 
