@@ -35,4 +35,13 @@ $ npm install
 ```bash 
 $ node index.js
 ```
-Agora você pode acessar a api no navegador em http://localhost:3000 (ou na porta indicada pelo terminal).
+Agora você pode acessar a API no navegador em http://localhost:3000 (ou na porta indicada pelo terminal).
+
+### 5. Configure o ambiente para o front-end:
+Para que o projeto do front-end consiga consumir a API, configure o arquivo .env no projeto do front-end com a URL da API. Por exemplo:
+
+```bash 
+VUE_APP_BASE_URL=http://localhost:3000
+```
+
+Após configurar o arquivo .env, reinicie o servidor do front-end.
