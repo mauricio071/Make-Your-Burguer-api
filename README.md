@@ -8,6 +8,7 @@ Esta API, desenvolvida com Node.js, fornece funcionalidades essenciais para o si
 
 -   **JavaScript** - Linguagem de programação
 -   **Node.js** - Ambiente de execução para JavaScript no back-end
+-   **Express** - Framework para construção de aplicações web em Node.js
 
 ## 🖥️ Como configurar o projeto
 Siga os passos abaixo para instalar e executar a API em seu ambiente local:
