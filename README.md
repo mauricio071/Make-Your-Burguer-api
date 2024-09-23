@@ -38,7 +38,7 @@ $ node index.js
 Agora você pode acessar a API no navegador em http://localhost:3000 (ou na porta indicada pelo terminal).
 
 ### 5. Configure o ambiente para o front-end:
-Para que o projeto do front-end consiga consumir a API, configure o arquivo .env no projeto do front-end com a URL da API. Por exemplo:
+Para que o projeto do front-end consiga consumir a API, instale o projeto do front-end [aqui](https://github.com/mauricio071/Make-Your-Burguer) e configure o arquivo .env no projeto com a URL da API. Por exemplo:
 
 ```bash 
 VUE_APP_BASE_URL=http://localhost:3000
