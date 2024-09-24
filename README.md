@@ -1,5 +1,11 @@
 <div align="center"> <h1>Make Your Burguer API</h1> </div>
 
+<p align="center">
+  <img alt="Github Top Language" src="https://img.shields.io/github/languages/top/mauricio071/Make-Your-Burguer-api?color=00bfa6">
+  <img width="1" />
+  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/mauricio071/Make-Your-Burguer-api?color=00bfa6">
+</p>
+
 ## 📝 Sobre o projeto
 
 Esta API, desenvolvida com Node.js, fornece funcionalidades essenciais para o sistema "Make Your Burguer". Ela permite que os usuários montem hambúrgueres personalizados e gerenciem os pedidos. A API suporta operações como a criação, edição e exclusão de pedidos, além de oferecer endpoints para consultar o status dos pedidos.
